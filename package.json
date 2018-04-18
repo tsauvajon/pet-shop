@@ -1,0 +1,21 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "test": "truffle test"
+  },
+  "author": "Thomas Sauvajon <thomas.sauvajon.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.3.0",
+    "truffle": "^4.1.6"
+  }
+}
